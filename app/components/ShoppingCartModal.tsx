@@ -75,7 +75,7 @@ export default function ShoppingCartModal() {
                             <button
                               type="button"
                               onClick={() => removeItem(entry.id)}
-                              className="font-medium text-primary hover:text-primary/80"
+                              className="font-medium text-sky-500 hover:text-sky-500/80"
                             >
                               Remove
                             </button>
@@ -109,7 +109,7 @@ export default function ShoppingCartModal() {
                 OR{" "}
                 <button
                   onClick={() => handleCartClick()}
-                  className=" font-medium text-primary hover:text-primary/80"
+                  className=" font-medium text-sky-500 hover:text-sky-500/80"
                 >
                   Continue Shopping
                 </button>
