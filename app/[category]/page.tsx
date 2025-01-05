@@ -25,7 +25,7 @@ export default async function CategoryPage({
 }: {
   params: { category: string };
 }) {
-  const data: simplifiedProduct[] = await getData(params.category);
+  const data = await getData(params.category);
 
   return (
     <div className="bg-white">
