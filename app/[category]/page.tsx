@@ -20,7 +20,7 @@ async function getData(cateogry: string) {
 
 export const dynamic = "force-dynamic";
 
-type Params = Promise<{category:string}>
+export type params = Promise<{category:string}>
 
 export default async function CategoryPage({params}: {params: { category: string };
 }) {
